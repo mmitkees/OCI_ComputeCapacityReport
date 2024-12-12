@@ -19,7 +19,7 @@ Output meanings are:
 
 ```
 python3 -m pip install oci -U --user
-gh repo clone mmitkees/OCI_ComputeCapacityReport
+git clone https://github.com/mmitkees/OCI_ComputeCapacityReport
 python3 ./OCI_ComputeCapacityReport/oci_concatinated_report.py
 ```
 
