@@ -19,7 +19,7 @@ import oci
 import os.path
 import argparse
 from modules.utils import green, clear, print_info
-from modules.exceptions import RestartFlowException 
+from modules.exceptions import RestartFlowException
 from modules.identity import init_authentication, get_region_subscription_list, validate_region_connectivity, get_home_region, set_user_compartment
 from modules.capacity import denseio_flex_shapes, process_region, set_denseio_shape_ocpus, set_user_shape_name, set_user_shape_ocpus, set_user_shape_memory, print_shape_list
 
