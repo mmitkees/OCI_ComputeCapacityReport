@@ -19,8 +19,8 @@ Output meanings are:
 
 ```
 python3 -m pip install oci -U --user
-git clone https://github.com/Olygo/OCI_ComputeCapacityReport
-python3 ./OCI_ComputeCapacityReport/OCI_ComputeCapacityReport.py
+gh repo clone mmitkees/OCI_ComputeCapacityReport
+python3 ./OCI_ComputeCapacityReport/oci_concatinated_report.py
 ```
 
 ## Table of Contents
